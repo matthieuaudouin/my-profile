@@ -1,0 +1,61 @@
+body { 
+background-color: #D8DBE2;
+font-family: Century Gothic;
+
+
+}
+h1{font-size: 40px;
+color: #4F518C;
+}
+p{	font-size: 15px;
+	font-family: Berlin sans FB;
+	font-weight: lighter;
+
+}
+h2{color:#4F518C}
+a{color: #D64933;
+text-decoration: none;
+font-weight: bold;
+font-family: Berlin sans FB;}
+a:hover{
+	color: black; }
+
+
+
+
+.container{ width: 700px; margin:35px auto;}
+@media(max-width: 500px){
+
+	.container{width: 400px}
+}
+@media(max-width: 760px){
+
+	.container{width: 600px}
+}
+
+
+
+
+
+.img-circle {border-radius: 50%}
+.shadowed{box-shadow: 5px 5px 3px black}
+.btn-red{background:#D64933; color: white;padding: 15px 20px ;border-radius: 10px;}
+	
+.card-white{ background: white;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px rgb(0 0 0 / 30%);
+    text-align: center;}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px}
+
+.list-horizontal li{
+	display: inline;
+	padding: 10px
+ }
+.list-horizontal i{ font-size: 60px}
+
+#introduction p {margin-bottom: 40px}
